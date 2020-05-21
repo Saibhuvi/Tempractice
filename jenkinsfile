@@ -3,8 +3,8 @@ pipeline{
     stages{
         stage("Git Checkout"){
             steps{
-               git credentialsId: 'github', url: 'https://github.com/Saibhuvi/Tempractice'
+               echo "HELLO WORLD"
             }
         }
     }
-}      
+}
